@@ -1,0 +1,132 @@
+* {
+  font-family: 'Vazir'; }
+
+body {
+  background-color: #4072af; }
+
+.body-loading {
+  filter: blur(10px); }
+
+.loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  background-color: black; }
+
+.login-form label {
+  font-size: 1.3rem;
+  text-align: center; }
+
+.panel-nav-bar {
+  border-radius: .3rem;
+  background-color: #00477f;
+  color: #dbe1ef;
+  align-items: baseline; }
+  .panel-nav-bar ul {
+    padding: .5rem;
+    list-style: none;
+    margin: 0; }
+    .panel-nav-bar ul a {
+      color: black !important;
+      margin-left: .1rem;
+      margin-right: .1rem;
+      user-select: none;
+      display: inline-block;
+      cursor: pointer;
+      padding: .75rem;
+      border-radius: .4rem;
+      text-decoration: inherit; }
+      .panel-nav-bar ul a:hover {
+        background-color: #74a0e193;
+        color: #112E4E;
+        font-weight: bold; }
+      .panel-nav-bar ul a.router-link-exact-active {
+        color: #112E4E;
+        background-color: #74a0e1 !important;
+        font-weight: bold; }
+      .panel-nav-bar ul a.disabled-link {
+        cursor: default;
+        color: rgba(0, 0, 0, 0.507) !important; }
+        .panel-nav-bar ul a.disabled-link:hover {
+          background-color: inherit;
+          font-weight: inherit;
+          color: inherit; }
+
+.user-portal-container {
+  background-color: #f9f7f8;
+  border-radius: .3rem;
+  margin-bottom: 5rem; }
+
+.satr {
+  padding: 0; }
+  .satr .part {
+    padding: .5rem .5rem;
+    background-color: #a9afbd;
+    margin: .6rem  .4rem;
+    text-align: center;
+    border-radius: .3rem;
+    font-weight: bold;
+    user-select: none;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.1), inset 5px 5px 5px rgba(255, 255, 255, 0.4); }
+    .satr .part-dragover::before {
+      content: '';
+      height: 100%;
+      position: absolute;
+      left: 100%;
+      width: .5rem;
+      border-right: 2px dashed #112E4E; }
+    .satr .part .weight {
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(50%, -50%);
+      background-color: #00477f;
+      padding: .3rem .8rem;
+      padding-top: .4rem;
+      font-size: 1rem;
+      text-align: center;
+      box-shadow: inset 1px 3px 6px 0px rgba(255, 255, 255, 0.4), 3px 4px 6px 0px rgba(0, 0, 0, 0.5); }
+
+.new-row {
+  opacity: .3; }
+
+.tavali-list .tavali .part .part-info {
+  background-color: #74a0e1;
+  cursor: pointer; }
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5rem; }
+  .rowInp select {
+    max-width: 100%  !important;
+    width: 3rem  !important;
+    flex-grow: .1; }
+  .rowInp .select-zero {
+    max-width: 100% !important;
+    font-size: 1rem;
+    width: 8rem !important; }
+  .rowInp .select-div {
+    width: 100% !important;
+    flex-grow: 5; }
+    .rowInp .select-div select {
+      width: 100%;
+      width: 45% !important; }
+    .rowInp .select-div .select-zero {
+      width: 45% !important; }
+    .rowInp .select-div input {
+      width: 50%; }
+    .rowInp .select-div .costum-part-name-input:focus {
+      width: 50%; }
+  #level1submit {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important; } }
+
+@media screen and (min-width: 600px) and (max-width: 1023px) {
+  .rowInp select {
+    max-width: 50%  !important;
+    width: 8rem  !important;
+    flex-grow: .1; } }

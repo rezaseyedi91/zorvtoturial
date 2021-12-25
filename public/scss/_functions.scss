@@ -1,0 +1,27 @@
+// @function weight($w) {
+    //least weight: 
+    // rgb(241, 163, 0)
+
+    // $rl: 241;
+    // $gl: 163;
+    // $bl: 0;
+
+    // highest weight
+    // rgb(23, 71, 147)
+
+    // $rh: 23;
+    // $gh: 71;
+    // $bh: 147;
+
+    // result color - res
+
+    // $difr: $rl - floor(($rl - $rh)*$w/100) ;
+    // $difg: $gl - floor(($gl - $gh)*$w/100) ;
+    // $difb: $bl + floor(($bh - $bl)*$w/100) ;
+
+
+
+
+    
+    // @return rgb($difr, $difg, $difb)
+// }

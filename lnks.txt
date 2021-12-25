@@ -1,0 +1,6 @@
+{"links-url":"https://api.jsonstorage.net/v1/json/95e9c6d5-5b4e-45a1-a2d0-eaadae452172",
+"users":"https://api.jsonstorage.net/v1/json/d132571e-3ea9-48a1-8b24-7f2d0f9a11ae"}
+
+
+{"links-url":"https://api.jsonstorage.net/v1/json/95e9c6d5-5b4e-45a1-a2d0-eaadae452172",
+"currentUserIndex":"https://api.jsonstorage.net/v1/json/bae75abd-3bc2-467e-b4ba-275bfdddddfe"}
